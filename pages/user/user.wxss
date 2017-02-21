@@ -19,3 +19,5 @@
 .usermotto {
   margin-top: 200px;
 }
+view { font-size: 14px;}
+.top-10 { margin-top: 10px;}

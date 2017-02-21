@@ -1,4 +1,26 @@
 <!--pages/user/user.wxml-->
 <view wx:for="{{array}}">
+  <view>当前项的下标:当前项的变量名</view>
   {{index}}: {{item.message}}
 </view>
+
+<view class="top-10">使用 wx:for-item 可以指定数组当前元素的变量名，使用 wx:for-index 可以指定数组当前下标的变量名：</view>
+<view wx:for="{{array}}" wx:for-index="idx" wx:for-item="itemName">
+  {{idx}}: {{itemName.message}}
+</view>
+
+<view class="top-10">wx:for也可以嵌套</view>
+<view wx:for="{{[1, 2, 3]}}" wx:for-item="i">
+  <view wx:for="{{[1, 2, 3]}}" wx:for-item="j">
+    <view wx:if="{{i <= j}}">
+      {{i}} * {{j}} = {{i * j}}
+    </view>
+  </view>
+</view>
+
+<view class="top-10">block wx:for</view>
+<block wx:for="{{[1, 2, 3]}}">
+  <view> {{index}}: </view>
+  <view> {{item}} </view>
+  <view>-------------</view>
+</block>

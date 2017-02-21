@@ -1,8 +1,6 @@
 // pages/news/news.js
 Page({
-  data: {
-    staffA: {firstName: 'Hulk', lastName: 'Hu'},
-    staffB: {firstName: 'Shang', lastName: 'You'},
-    staffC: {firstName: 'Gideon', lastName: 'Lin'}
+  tapName: function(event) {
+    console.log(event)
   }
 })

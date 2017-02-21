@@ -5,6 +5,7 @@ Page({
       message: 'foo',
     }, {
       message: 'bar'
-    }]
+    }] 
   }
+  
 })
