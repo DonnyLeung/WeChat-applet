@@ -1,0 +1,11 @@
+<!--pages/tools/tools.wxml-->
+<view wx:if="{{a>5}}">a大于5 </view>
+<view wx:elif="{{a == 2}}"> a等于2 </view>
+<block wx:else>
+    <view> a小于5 </view>
+    <view> 且不等于2 </view>
+</block>
+<!---->
+<!--<view wx:for="{{array}}">
+  {{index}}: {{item.message}}
+</view>-->

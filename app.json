@@ -2,8 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/assistant/assistant",
-    "pages/classroom/classsroom",
+    "pages/tools/tools",
+    "pages/news/news",
     "pages/user/user"
   ],
   "window":{
@@ -19,12 +19,12 @@
       "iconPath": "img/icon-home.png",
       "selectedIconPath": "img/icon-home-selected.png"
     },{
-      "pagePath": "pages/classroom/classsroom",
+      "pagePath": "pages/news/news",
       "text": "消息",
       "iconPath": "img/icon-news.png",
       "selectedIconPath": "img/icon-news-selected.png"
     },{
-      "pagePath": "pages/assistant/assistant",
+      "pagePath": "pages/tools/tools",
       "text": "工具",
       "iconPath": "img/icon-tool.png",
       "selectedIconPath": "img/icon-tool-selected.png"
